@@ -1,0 +1,46 @@
+Linked List
+	-know hot to traverse linked list
+	-Know ho w to manipulate linked list
+		- Reverse
+		- remove duplicates
+		- Merge two linked list
+		- Sort
+	-know hot to freee the removed node correctly
+	-Know how to deal with head pointer correctly (double pointer)
+
+Tree(recursion)
+	-Binary Tree, Binary Search Tree
+	-How to traverse: Pre-order, in-order, post-order
+		Inorder:
+			void inorder(node *root)
+			{
+				if(root == NULL)
+				{
+					return;
+				}
+				inorder(root->left);
+				inorder(root->val);
+				inorder(root->right);
+			}
+		-Know how to traverse with recursion
+		-Know how to construct tree with recursion
+		-Know how to manipulate tree.
+
+C++
+	-Understand concept of Class
+		-Hide data from user and have all methods in one place ***DATA ENCAPSULATION***
+		-Constructor
+		-Destructor
+			-Deallocate all the memory.
+	-Understand inheritance
+		-Know the concept of accessibility
+		 	-What can be accessed by classes inheriting another class.
+		-Virtual function, pure virtual
+			-A function that the class which inherits the class should implement.
+			-Cannot instantiate abstract class.
+	-Understand operator overloading (polymorphism)
+	-Understand Private, public and protected
+
+-C to LC3 (LC3 Programming)
+	-Especially recursion.
+	-Must practice!
